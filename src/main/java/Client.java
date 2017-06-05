@@ -29,10 +29,6 @@ public class Client {
     private BufferedReader in;
     private PrintWriter out;
 
-    /**
-     * Constructs the client by connecting to a server, laying out the
-     * GUI and registering GUI listeners.
-     */
     public Client(String serverAddress) throws Exception {
 
         // Setup networking
